@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "@sailshq/lodash": "^3.10.6",
+    "backend": "file:",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "sails": "^1.5.11",
+    "sails-hook-autoreload": "^1.1.0",
+    "sails-hook-dotenv": "^0.1.1",
+    "sails-hook-orm": "^4.0.3",
+    "sails-mysql": "3.0.1",
+    "slugify": "^1.6.6",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "eslint": "5.16.0"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=production node app.js",
+    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "lint": "./node_modules/eslint/bin/eslint.js . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/backend.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": "",
+  "engines": {
+    "node": "^20.12"
+  }
+}
