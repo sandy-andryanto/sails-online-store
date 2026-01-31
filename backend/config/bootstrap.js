@@ -1,7 +1,7 @@
 /**
  * This file is part of the Sandy Andryanto Online Store Website.
  *
- * @author     Sandy Andryanto <sandy.andryanto.blade@gmail.com>
+ * @author     Sandy Andryanto <sandy.andryanto.official@gmail.com>
  * @copyright  2025
  *
  * For the full copyright and license information,
@@ -73,7 +73,7 @@ async function createSetting(){
       { key: 'aboutSection', value: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.' },
       { key: 'comLocation', value: 'West Java, Indonesia' },
       { key: 'comPhone', value: '+62-898-921-8470' },
-      { key: 'comEmail', value: 'sandy.andryanto.blade@gmail.com' },
+      { key: 'comEmail', value: 'sandy.andryanto.official@gmail.com' },
       { key: 'comCurrency', value: 'USD' },
       { key: 'installed', value: 1 },
       { key: 'discountActive', value: 1 },
